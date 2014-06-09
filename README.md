@@ -23,6 +23,16 @@ https://github.com/sporritt/jsPlumb
 
 
 ###JavaScript
-
+####AngularJS
+ 1. 官网学习代码   
+ https://github.com/angular/angular.js
+ 2. AngularJS项目实战建议，包括项目的组织结构等     
+ https://github.com/mgechev/angularjs-style-guide
+ 3. AngularStrap，Bootstrap3的Angular版本   
+ https://github.com/mgcrea/angular-strap
+ 
 
 ###HTML(5)
+
+
+###移动端Web技术
