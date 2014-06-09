@@ -23,6 +23,8 @@ https://github.com/sporritt/jsPlumb
 
 ##学习资料
 ###CSS(3)
+ 1. CSS抖动效果集合     
+ https://github.com/elrumordelaluz/csshake     
 
 
 ###JavaScript
@@ -43,8 +45,17 @@ https://github.com/sporritt/jsPlumb
  https://github.com/btford/angular-modal     
  6. Angular-dragdrop，拖动插件，依赖jQueryUI
  https://github.com/codef0rmer/angular-dragdrop         
- 7. 
- 
+ 7. Angular-dragon-drop，btford所写，不依赖其它库，纯属学习所用     
+ https://github.com/btford/angular-dragon-drop
+
+     
+####jQuery
+ 1. BootStrap，前端框架，自适应布局，各种插件。    
+ https://github.com/twbs/bootstrap     
+ 2. jQuery-Tags-Input，标签式输入插件    
+ https://github.com/xoxco/jQuery-Tags-Input    
+
+
 
 ###HTML(5)
 
