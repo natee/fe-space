@@ -3,6 +3,8 @@
  2. [Sublime text主题](https://github.com/kkga/spacegray)    
  3. [html2canvas](https://github.com/niklasvh/html2canvas)，把网页中的一部分转化成canvas，可以实现网页截图的功能。    
  4. [ECharts](https://github.com/ecomfe/echarts)，基于Canvas的JavaScript图表库，百度开源项目
+ 5. [gulp.js](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started)，自动化管理工具，据说比grunt好。
+   -  [gulp plugins](http://gratimax.github.io/search-gulp-plugins/)，gulp插件。
 
 
 ##趣味工具
@@ -12,9 +14,9 @@
 
 ##学习资料
 ###CSS(3)
- 1. CSS抖动效果集合     
- https://github.com/elrumordelaluz/csshake     
-
+ 1. [CSS抖动](https://github.com/elrumordelaluz/csshake)效果集合。
+ 2. [LESS](https://github.com/less/less.js)，一种动态样式语言。
+   + [官方文档](http://lesscss.org/)
 
 ###JavaScript
 ####计算机科学
