@@ -1,8 +1,3 @@
-bookmark_repositories
-=====================
-
-收藏的仓库
-
 ##实用工具
  1. [Markdown-Syntax](https://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md )，想要编辑这份文档，这个当然是首要需要学习的。    
  2. [Sublime text主题](https://github.com/kkga/spacegray)    
