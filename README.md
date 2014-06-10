@@ -27,25 +27,17 @@ bookmark_repositories
  https://github.com/davidshariff/computer-science     
 
 ####AngularJS
- 1. 官网学习代码   
- https://github.com/angular/angular.js   
- 2. AngularJS项目实战建议，包括项目的组织结构等     
- https://github.com/mgechev/angularjs-style-guide
- 3. AngularStrap，Bootstrap3的Angular版本。   
- https://github.com/mgcrea/angular-strap
- 4. AngularGridster，网格版的自适应布局，可以拖动和更改块的大小。    
- https://github.com/ManifestWebDesign/angular-gridster    
- 5. AngularModal，浮层内容支持代码和模板。    
- https://github.com/btford/angular-modal     
- 6. Angular-dragdrop，拖动插件，依赖jQueryUI    
- https://github.com/codef0rmer/angular-dragdrop     
- 7. Angular-dragon-drop，btford所写，不依赖其它库，纯属学习所用     
- https://github.com/btford/angular-dragon-drop 
-
+ 1. [AngularJS](https://github.com/angular/angular.js)官网学习代码。
+ 2. AngularJS项目[实战建议](https://github.com/mgechev/angularjs-style-guide)，包括项目的组织结构等。
+ 3. [AngularStrap](https://github.com/mgcrea/angular-strap)，Bootstrap3的Angular版本。
+ 4. [AngularGridster](https://github.com/ManifestWebDesign/angular-gridster)，网格版的自适应布局，可以拖动和更改块的大小。
+ 5. [AngularModal](https://github.com/btford/angular-modal)，浮层内容支持代码和模板。
+ 6. [Angular-dragdrop](https://github.com/codef0rmer/angular-dragdrop)，拖动插件，依赖jQueryUI。
+ 7. [Angular-dragon-drop](https://github.com/btford/angular-dragon-drop)，btford所写，不依赖其它库，纯属学习所用。
      
 ####jQuery
  1. [BootStrap](https://github.com/twbs/bootstrap)，前端框架，自适应布局，各种插件。    
- 2. [jQuery-Tags-Input](https://github.com/xoxco/jQuery-Tags-Input)，标签式输入插件    
+ 2. [jQuery-Tags-Input](https://github.com/xoxco/jQuery-Tags-Input)，标签式输入插件。
 
 
 ###HTML(5)
