@@ -1,6 +1,7 @@
 ## gulp学习 ##
 默认你已经会安装gulp和gulp plugins，并且知道配置文件是怎么回事。
 ### gulp-less ###
+```js
     var gulp = require('gulp');
     var path = require('path');
     var less = require('gulp-less');//LESS
@@ -56,4 +57,5 @@
     });
 
     gulp.task('default', ['scripts', 'css', 'watch']);
+```
 参考[gulp-less](https://www.npmjs.org/package/gulp-less)
