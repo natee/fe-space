@@ -1,11 +1,11 @@
-##实用工具
+##实用类
  1. [Markdown-Syntax](https://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md )，想要编辑这份文档，这个当然是首要需要学习的。    
  2. [Sublime text主题](https://github.com/kkga/spacegray)    
  3. [html2canvas](https://github.com/niklasvh/html2canvas)，把网页中的一部分转化成canvas，可以实现网页截图的功能。    
  4. [ECharts](https://github.com/ecomfe/echarts)，基于Canvas的JavaScript图表库，百度开源项目
  5. [gulp.js](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started)，自动化管理工具，据说比grunt好。
    -  [gulp plugins](http://gratimax.github.io/search-gulp-plugins/)，gulp插件。
-
+ 6. [JSDoc3](https://github.com/jsdoc3/jsdoc)，生成JavaScript API文档工具。
 
 ##趣味工具
  1. [web流程图](https://github.com/sporritt/jsPlumb)   
