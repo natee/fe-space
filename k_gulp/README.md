@@ -2,60 +2,30 @@
 默认你已经会安装gulp和gulp plugins，并且知道配置文件是怎么回事。
 ### gulp-less ###
 ```js
-var gulp = require('gulp');
+var less = require('gulp-less');
 var path = require('path');
-var less = require('gulp-less');//LESS
-var minifyJS = require('gulp-uglify');//压缩JS
-var minifyCSS = require('gulp-minify-css');//压缩CSS
-var concat = require('gulp-concat');//合并
 
-var paths = {
-    src_js: 'src/js/*.js',
-    src_css: 'src/css/*.less',
-    dist_js:'dist/js',
-    dist_css:'dist/css'
-};
-
-/**
- * 源文件目录为/src/css/*.less
- * 先通过gulp-less把.less文件编译成.css文件
- * 通过gulp-minify-css把.css文件压缩
- * 再通过gulp-concat把压缩后的.css文件合并到all.min.css中
- * 发布到/dist/css目录下
- */
-gulp.task('css', function() {
-    gulp.src(paths.src_css)
-        .pipe(less({
-            paths: [ path.join(__dirname, 'less', 'includes') ]
-        }))
-        .pipe(minifyCSS())
-        .pipe(gulp.dest(paths.dist_css))
-        .pipe(concat('all.min.css'))
-        .pipe(gulp.dest(paths.dist_css))
+gulp.task('less', function () {
+  gulp.src('./less/**/*.less')
+    .pipe(less({
+      paths: [ path.join(__dirname, 'less', 'includes') ]
+    }))
+    .pipe(gulp.dest('./public/css'));
 });
 
-/**
- * 源文件目录为/src/js/*.js
- * 通过gulp-uglify把.js文件压缩
- * 再通过gulp-concat把压缩后的.js文件合并到all.min.js中
- * 发布到/dist/js目录下
- */
-gulp.task('scripts', function() {
-    gulp.src(paths.src_js)
-        .pipe(minifyJS())
-        .pipe(gulp.dest(paths.dist_js))
-        .pipe(concat('all.min.js'))
-        .pipe(gulp.dest(paths.dist_js))
-});
-
-/**
- * 监听文件变化，执行相应的任务
- */
-gulp.task('watch', function() {
-    gulp.watch(paths.src_js, ['scripts']);
-    gulp.watch(paths.src_css, ['css']);
-});
-
-gulp.task('default', ['scripts', 'css', 'watch']);
+gulp.task('default', ['less']);
 ```
 参考[gulp-less](https://www.npmjs.org/package/gulp-less)
+
+### gulp-ugfily ###
+```js
+var minifyJS = require('gulp-uglify');
+
+gulp.task('compress', function() {
+  gulp.src('lib/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('dist'))
+});
+gulp.task('default', ['minifiJS']);
+```
+参考[gulp-ugfily](https://www.npmjs.org/package/gulp-ugfily)
