@@ -16,6 +16,7 @@ gulp.task('less', function () {
 gulp.task('default', ['less']);
 ```
 参考[gulp-less](https://www.npmjs.org/package/gulp-less)        
+
 ------
 ### gulp-ugfily（压缩js） ###
 ```js
@@ -28,7 +29,8 @@ gulp.task('compress', function() {
 });
 gulp.task('default', ['minifiJS']);
 ```
-参考[gulp-ugfily](https://www.npmjs.org/package/gulp-ugfily)       
+参考[gulp-ugfily](https://www.npmjs.org/package/gulp-ugfily)    
+
 ------
 ### gulp-minify-css（压缩css） ###
 ```js
@@ -41,7 +43,8 @@ gulp.task('minify-css', function() {
 });
 gulp.task('default', ['minifiCSS']);
 ```
-参考[gulp-minify-css](https://www.npmjs.org/package/gulp-minify-css)         
+参考[gulp-minify-css](https://www.npmjs.org/package/gulp-minify-css)      
+
 ------
 ### gulp-concat（合并文件） ###
 ```js
@@ -55,4 +58,5 @@ gulp.task('scripts', function() {
 gulp.task('default', ['concat']);
 ```
 参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)       
+
 -------
