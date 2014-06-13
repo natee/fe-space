@@ -1,0 +1,1 @@
+function Author(t,h){this.name=t,this.age=h}
