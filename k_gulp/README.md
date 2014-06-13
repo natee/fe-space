@@ -55,3 +55,16 @@ gulp.task('scripts', function() {
 gulp.task('default', ['concat']);
 ```
 参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)
+
+### gulp-jsdoc（JS文档API） ###
+```js
+var jsdoc = require("gulp-jsdoc");
+
+gulp.task('jsdoc', function() {
+  gulp.src("./src/*.js")
+	.pipe(jsdoc('./documentation-output'))
+  });
+gulp.task('default', ['jsdoc']);
+```
+参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)
+
