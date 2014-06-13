@@ -57,7 +57,6 @@ gulp.task('scripts', function() {
 });
 gulp.task('default', ['concat']);
 ```
-<<<<<<< HEAD
 参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)
 
 ### gulp-jsdoc（JS文档API） ###
@@ -72,8 +71,4 @@ gulp.task('default', ['jsdoc']);
 ```
 参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)
 
-=======
-参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)       
-
 -------
->>>>>>> f5bc874ea0b56e060e017d6c4fa231ea09018b60
