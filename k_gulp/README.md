@@ -1,4 +1,4 @@
-## gulp学习 ##
+## gulp学习，常用的gulp plugins ##
 默认你已经会安装gulp和gulp plugins，并且知道配置文件是怎么回事。
 ### gulp-less（使用less） ###
 ```js
@@ -15,8 +15,9 @@ gulp.task('less', function () {
 
 gulp.task('default', ['less']);
 ```
-参考[gulp-less](https://www.npmjs.org/package/gulp-less)
+参考[gulp-less](https://www.npmjs.org/package/gulp-less)        
 
+------
 ### gulp-ugfily（压缩js） ###
 ```js
 var minifyJS = require('gulp-uglify');
@@ -28,8 +29,9 @@ gulp.task('compress', function() {
 });
 gulp.task('default', ['minifiJS']);
 ```
-参考[gulp-ugfily](https://www.npmjs.org/package/gulp-ugfily)
+参考[gulp-ugfily](https://www.npmjs.org/package/gulp-ugfily)    
 
+------
 ### gulp-minify-css（压缩css） ###
 ```js
 var minifyCSS = require('gulp-minify-css');
@@ -41,8 +43,9 @@ gulp.task('minify-css', function() {
 });
 gulp.task('default', ['minifiCSS']);
 ```
-参考[gulp-minify-css](https://www.npmjs.org/package/gulp-minify-css)
+参考[gulp-minify-css](https://www.npmjs.org/package/gulp-minify-css)      
 
+------
 ### gulp-concat（合并文件） ###
 ```js
 var concat = require('gulp-concat');
@@ -54,6 +57,7 @@ gulp.task('scripts', function() {
 });
 gulp.task('default', ['concat']);
 ```
+<<<<<<< HEAD
 参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)
 
 ### gulp-jsdoc（JS文档API） ###
@@ -68,3 +72,8 @@ gulp.task('default', ['jsdoc']);
 ```
 参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)
 
+=======
+参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)       
+
+-------
+>>>>>>> f5bc874ea0b56e060e017d6c4fa231ea09018b60
