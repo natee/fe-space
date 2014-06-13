@@ -69,6 +69,6 @@ gulp.task('jsdoc', function() {
   });
 gulp.task('default', ['jsdoc']);
 ```
-参考[gulp-concat](https://www.npmjs.org/package/gulp-concat)
+参考[gulp-jsdoc](https://www.npmjs.org/package/gulp-jsdoc)
 
 -------

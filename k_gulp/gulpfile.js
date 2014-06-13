@@ -4,6 +4,7 @@ var less = require('gulp-less');//LESS
 var minifyJS = require('gulp-uglify');//压缩JS
 var minifyCSS = require('gulp-minify-css');//压缩CSS
 var concat = require('gulp-concat');//合并
+var jsdoc = require('gulp-jsdoc');//生成JSDOC
 
 var paths = {
     src_js: 'src/js/*.js',
@@ -45,11 +46,20 @@ gulp.task('scripts', function() {
 });
 
 /**
+ * 生成JS API文档
+ */
+gulp.task('jsdoc',function(){
+    gulp.src(paths.src_js)
+        .pipe(jsdoc('out/'))
+});
+
+/**
  * 监听文件变化，执行相应的任务
  */
 gulp.task('watch', function() {
     gulp.watch(paths.src_js, ['scripts']);
     gulp.watch(paths.src_css, ['css']);
+    gulp.watch(paths.src_js, ['jsdoc']);
 });
 
-gulp.task('default', ['scripts', 'css', 'watch']);
+gulp.task('default', ['scripts', 'css', 'jsdoc', 'watch']);
