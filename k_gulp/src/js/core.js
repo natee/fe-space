@@ -1,3 +1,7 @@
+/**
+ * @constructor
+ * @type {Object} 核心库
+ */
 var Core = {};
 Core.util = {};
 
