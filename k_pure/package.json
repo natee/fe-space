@@ -10,6 +10,10 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "express": "~4.4.3",
-    "ejs": "~1.0.0"
+    "ejs": "~1.0.0",
+    "gulp": "~3.8.0",
+    "gulp-uglify": "~0.3.0",
+    "gulp-minify-css": "~0.3.4",
+    "gulp-concat": "~2.2.0"
   }
 }
