@@ -20,9 +20,9 @@ var paths = {
  */
 gulp.task('css', function() {
     gulp.src(paths.src_css)
-        .pipe(minifyCSS())
+        // .pipe(minifyCSS())
         .pipe(gulp.dest(paths.dist_css))
-        .pipe(concat('all.min.css'))
+        .pipe(concat('all.css'))
         .pipe(gulp.dest(paths.dist_css))
 });
 
