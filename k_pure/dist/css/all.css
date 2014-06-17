@@ -1,3 +1,75 @@
+.text-center{
+	text-align: center;
+}
+
+.natee .pure-menu{
+	padding:0.5em;
+	background: #2d3e50!important;
+}
+.natee .pure-menu li.pure-menu-selected{
+	background: #eee;
+}
+.natee .pure-menu .pure-menu-heading,.natee .pure-menu a{
+	color: #fff;
+}
+.natee .pure-menu a:hover{
+	color:#000;
+}
+.natee .pure-button-primary{
+	background-color: #fff;
+	color:#0078e7;
+	border-radius: 5px;
+	font-size: 120%;
+	padding: 0.5em 1.5em;
+}
+
+.natee .main{
+	padding-top:60px;
+}
+.natee .basic{
+	background: #1f8dd6;
+	z-index: 1;
+	overflow: hidden;
+	width: 100%;
+	height: 88%;
+	top: 0;
+	left: 0;
+	position: fixed !important;
+	color: #fff;
+}
+.natee .basic-box{
+	width:50%;
+	height: 50%;
+	margin:0 auto;
+	position:absolute;
+	top:100px;
+	left:0;
+	right: 0;
+	bottom: 0;
+}
+.natee .basic .head{
+	font-size: 300%;
+	font-weight: bold;
+	color: white;
+	border: 3px solid white;
+	padding: 1em 1.6em;
+	font-weight: 100;
+	border-radius: 5px;
+	line-height: 1em;
+}
+.natee .detail{
+	position:absolute;
+	z-index:2;
+	background-color: #fff;
+	top:87%;
+	width: 100%;
+	min-height: 15%;
+}
+.natee .footer{
+	background: #111;
+	padding:1em;
+	color: #fff;
+}
 /*!
 Pure v0.5.0
 Copyright 2014 Yahoo! Inc. All rights reserved.
