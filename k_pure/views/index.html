@@ -3,8 +3,14 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><%=title%></title>
+	<title>natee-github</title>
 	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+<!--<![endif]-->
 </head>
 <body class="natee">
 <header class="header">
@@ -12,51 +18,74 @@
 		<a href="/" class="pure-menu-heading">NATEE</a>
 		<ul>
 			<li class="pure-menu-selected"><a href="">简介</a></li>
-			<li><a href="">历程</a></li>
+			<li><a href="">博客</a></li>
+			<li><a href="http://natee.github.io/fe-space/">FE学习资料</a></li>
 			<li><a href="">其它</a></li>
 		</ul>
 	</nav>
 </header>
 <div class="main">
-	<div class="basic text-center">
-		<div class="basic-box">
-			<h1 class="head">想了解赵可吗？</h1>
+	<div class="basic text-center blind-effect" style="position:relative;">
+		<div class="basic-box pure-u-4-5 pure-u-md-3-4 pure-u-lg-1-2">
+			<h1 class="head shine-white">对赵可感兴趣？↓↓↓</h1>
 			<p class="intro">他现在是一个前端，以后可能还会是前端，最终肯定不仅仅是前端。</p>
 			<p>
-				<button class="pure-button pure-button-primary">联系他</button>
+				<a class="pure-button pure-button-primary" href="#contact">联系他</a>
 			</p>
 		</div>
 	</div>
 	<div class="detail">
 		<div class="skill">
-			<h2>他所掌握的技能</h2>
+			<h2 class="head text-center">他所掌握的技能</h2>
 			<div class="pure-g">
-				<div class="sikill-item pure-u-1-4">
+				<div class="skill-item pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 					<h3>HTML(5)</h3>
 					<p>它是什么不用多说了</p>
 				</div>
-				<div class="sikill-item pure-u-1-4">
+				<div class="skill-item pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 					<h3>CSS(3)</h3>
 					<p>它是什么不用多说了</p>
 				</div>
-				<div class="sikill-item pure-u-1-4">
+				<div class="skill-item pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 					<h3>JAVASCRIPT</h3>
 					<p>它是什么不用多说了</p>
 				</div>
-				<div class="sikill-item pure-u-1-4">
+				<div class="skill-item pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 					<h3>JQUERY</h3>
 					<p>它是什么不用多说了</p>
 				</div>
 			</div>
 		</div>
-		<div class="experence"></div>
-		<div class="contact">
-			<h2>您可以通过以下方式联系他</h2>
+		<div class="experence">
+			<div class="pure-g">
+				<div class="pure-u-1 pure-u-md-2-5 pure-u-lg-2-5">
+					<img width="300" src="img/file-icons.png">
+				</div>
+				<div class="pure-u-1 pure-u-md-3-5 pure-u-lg-3-5">
+					<h2 class="head">2013-10&nbsp;至&nbsp;今</h2>
+		            <p class="content">
+		                就职于海智网聚网络技术（北京）有限公司。
+		            </p>
+		            <h2 class="head">2013-06&nbsp;至&nbsp;2013-10</h2>
+		            <p class="content">
+		                就职于北京艾德思奇科技有限公司。
+		            </p>
+		            <h2 class="head">2013-10&nbsp;至&nbsp;今</h2>
+		            <p class="content">
+		                就职于海智网聚网络技术（北京）有限公司。就职于海智网聚网络技术（北京）有限公司。就职于海智网聚网络技术（北京）有限公司。就职于海智网聚网络技术（北京）有限公司。就职于海智网聚网络技术（北京）有限公司。就职于海智网聚网络技术（北京）有限公司。就职于海智网聚网络技术（北京）有限公司。就职于海智网聚网络技术（北京）有限公司。
+		            </p>
+				</div>
+			</div>
 		</div>
+		<div class="contact">
+			<a href="" id="contact" name="contact"></a>
+			<h2 class="head text-center">您可以通过以下方式联系他</h2>
+		</div>
+		<footer class="footer text-center">
+			在GITHUB上查看源代码，&copy; 2014 <a href="https://github.com/natee">natee</a> all rights reserved.
+		</footer>
 	</div>
 </div>
-<footer class="footer text-center">
-	在GITHUB上查看源代码，&copy; 2014 <a href="https://github.com/natee">natee</a> all rights reserved.
-</footer>
+
 </body>
 </html>

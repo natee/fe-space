@@ -1,10 +1,65 @@
+/*common css*/
+*{
+	box-sizing:border-box;
+}
+.cf:before, .cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+.cf {
+    zoom:1;
+}
 .text-center{
 	text-align: center;
 }
 
+/*some effect*/
+/*边框发光*/
+@-webkit-keyframes  shineWhite {
+	from { -webkit-box-shadow: 0 0 15px #dfdfdf; }
+	50% { -webkit-box-shadow: 0 0 30px #fff; }
+	to { -webkit-box-shadow: 0 0 15px #dfdfdf; }
+}
+.shine-white{
+	-webkit-animation-name: shineWhite; 
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite; 
+}
+/*显示玻璃光效*/
+@webkit-keyframes blinkdEffect{
+	0% {left:-300px;}
+	100%{left:800px;}
+}
+.blind-effect:before{
+	background: -moz-linear-gradient(left center , rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0 rgba(255, 0, 0, 0);
+ background: -webkit-linear-gradient(left ,rgba(255,255,255,0) 0,rgba(255,255,255,0.1) 10%,rgba(255,255,255,0.1) 50%);
+    content: "";
+    height: 100%;
+    left: -300px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transform: skewX(-35deg);
+    -webkit-transform: skewX(-35deg);
+    width:100px;
+    /*-webkit-animation: 1.5s ease-out 0s normal forwards infinite blinkdEffect;*/
+}
+.blind-effect:before{
+	-webkit-animation-name: blinkdEffect; 
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+/*page css*/
 .natee .pure-menu{
 	padding:0.5em;
 	background: #2d3e50!important;
+}
+.natee .pure-menu.pure-menu-open{
+	z-index: 4;
 }
 .natee .pure-menu li.pure-menu-selected{
 	background: #eee;
@@ -38,7 +93,7 @@
 	color: #fff;
 }
 .natee .basic-box{
-	width:50%;
+	/*width:50%;*/
 	height: 50%;
 	margin:0 auto;
 	position:absolute;
@@ -54,7 +109,7 @@
 	border: 3px solid white;
 	padding: 1em 1.6em;
 	font-weight: 100;
-	border-radius: 5px;
+	border-radius: 10px;
 	line-height: 1em;
 }
 .natee .detail{
@@ -65,10 +120,32 @@
 	width: 100%;
 	min-height: 15%;
 }
+.natee .skill{
+	padding:1em;
+}
+.natee .skill .head,.natee .contact .head{
+	margin:2em 0 1em;
+}
+.natee .skill .skill-item{
+	padding:1em;
+}
+.natee .skill .skill-item h3{
+	color: #1f8dd6;
+}
+.natee .experence{
+	background: #2d3e50;
+	color: #aaa;
+	padding:2em;
+}
+.natee .experence .head{
+	color:#fff;
+}
 .natee .footer{
 	background: #111;
-	padding:1em;
-	color: #fff;
+	padding: 1em;
+	color: #7f8c8d;
+	font-size: 14px;
+	line-height: 1.7em;
 }
 /*!
 Pure v0.5.0
