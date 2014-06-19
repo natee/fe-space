@@ -19,22 +19,23 @@
 /*some effect*/
 /*边框发光*/
 @-webkit-keyframes  shineWhite {
-	from { -webkit-box-shadow: 0 0 15px #dfdfdf; }
-	50% { -webkit-box-shadow: 0 0 30px #fff; }
-	to { -webkit-box-shadow: 0 0 15px #dfdfdf; }
+	from {box-shadow: 0 0 15px #dfdfdf; }
+	50% {box-shadow: 0 0 30px #fff; }
+	to {box-shadow: 0 0 15px #dfdfdf; }
 }
 .shine-white{
 	-webkit-animation-name: shineWhite; 
-	-webkit-animation-duration: 3s;
+	-webkit-animation-duration: 2s;
 	-webkit-animation-iteration-count: infinite; 
 }
 /*显示玻璃光效*/
-@webkit-keyframes blinkdEffect{
-	0% {left:-300px;}
-	100%{left:800px;}
+.blind-effect{
+	position: relative;
+	overflow: hidden;
+	width:100%;
+	/*height: 100%;*/
 }
-.blind-effect:before{
-	background: -moz-linear-gradient(left center , rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0 rgba(255, 0, 0, 0);
+.blind-effect:before {
  background: -webkit-linear-gradient(left ,rgba(255,255,255,0) 0,rgba(255,255,255,0.1) 10%,rgba(255,255,255,0.1) 50%);
     content: "";
     height: 100%;
@@ -42,15 +43,40 @@
     overflow: hidden;
     position: absolute;
     top: 0;
-    transform: skewX(-35deg);
-    -webkit-transform: skewX(-35deg);
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
     width:100px;
-    /*-webkit-animation: 1.5s ease-out 0s normal forwards infinite blinkdEffect;*/
 }
-.blind-effect:before{
-	-webkit-animation-name: blinkdEffect; 
-	-webkit-animation-duration: 1.5s;
-	-webkit-animation-iteration-count: infinite;
+@-webkit-keyframes blindEffect {
+	0% {left:-300px;}
+	100%{left:100%;}
+}
+.blind-effect:before {
+    -webkit-animation: 1s ease-out 0s normal forwards infinite blindEffect;
+}
+/*跳动效果*/
+.bounce-down{
+	-webkit-animation:bounceInDown 1s .2s ease both;
+}
+@-webkit-keyframes bounceInDown{
+	0%{opacity:0;-webkit-transform:translateY(-2000px)}
+	60%{opacity:1;-webkit-transform:translateY(30px)}
+	80%{-webkit-transform:translateY(-10px)}
+	100%{-webkit-transform:translateY(0)}
+}
+/*x轴淡入翻转*/
+.flip-in{-webkit-animation:flipInX 1s .2s ease both;}
+@-webkit-keyframes flipInX{
+	0%{-webkit-transform:perspective(400px) rotateX(90deg);opacity:0}
+	40%{-webkit-transform:perspective(400px) rotateX(-10deg)}
+	70%{-webkit-transform:perspective(400px) rotateX(10deg)}
+	100%{-webkit-transform:perspective(400px) rotateX(0deg);opacity:1}
+}
+/*右侧淡入*/
+.fade-in-right{-webkit-animation:fadeInRightBig 1s .2s ease both;}
+@-webkit-keyframes fadeInRightBig{
+	0%{opacity:0;-webkit-transform:translateX(2000px)}
+	100%{opacity:1;-webkit-transform:translateX(0)}
 }
 
 /*page css*/
@@ -67,7 +93,7 @@
 .natee .pure-menu .pure-menu-heading,.natee .pure-menu a{
 	color: #fff;
 }
-.natee .pure-menu a:hover{
+.natee .pure-menu li.pure-menu-selected a,.natee .pure-menu a:hover{
 	color:#000;
 }
 .natee .pure-button-primary{
@@ -129,8 +155,44 @@
 .natee .skill .skill-item{
 	padding:1em;
 }
+
+.natee .skill .skill-item .img{
+	width: 80px;
+	height: 80px;
+	float:left;
+	box-shadow: 0 0 5px rgba(0,0,0,.2),0 0 10px rgba(0,0,0,0.1);
+	margin: 0 1em 0.5em 0;
+	border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.natee .skill .skill-item .img:before {
+	background: rgba(247, 98, 98, 0.8);
+	box-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+    content: "";
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left:-5px;
+    transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    width:25px;
+}
+.natee .skill .skill-item .img img{
+	height: 100%;
+	/*width: 100%;*/
+	border-radius: 4px;
+}
 .natee .skill .skill-item h3{
 	color: #1f8dd6;
+	margin: 0 0 0.5em;
+}
+.natee .skill .skill-item p{
+	font-size: 14px;
+	line-height: 1.4em;
+	margin-top:0;
 }
 .natee .experence{
 	background: #2d3e50;

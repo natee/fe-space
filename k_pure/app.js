@@ -13,7 +13,7 @@ app.engine('.html',ejs.__express);
 app.set('view engine', 'html');
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
-app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, 'src')));
 
 app.get('/', index.index1);
 app.get('/users', user.list);
