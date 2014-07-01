@@ -33,6 +33,7 @@
  5. [AngularModal](https://github.com/btford/angular-modal)，浮层内容支持代码和模板。
  6. [Angular-dragdrop](https://github.com/codef0rmer/angular-dragdrop)，拖动插件，依赖jQueryUI。
  7. [Angular-dragon-drop](https://github.com/btford/angular-dragon-drop)，btford所写，不依赖其它库，纯属学习所用。
+ 8. [Angular-upload](https://github.com/leon/angular-upload)，angular上传，不依赖其它库。
      
 ####jQuery
  1. [BootStrap](https://github.com/twbs/bootstrap)，前端框架，自适应布局，各种插件。    
