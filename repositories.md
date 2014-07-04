@@ -18,7 +18,9 @@
  1. [CSS抖动](https://github.com/elrumordelaluz/csshake)效果集合。
  2. [LESS](https://github.com/less/less.js)，一种动态样式语言。
    + [官方文档](http://lesscss.org/)
- 3. [YUI CSS RESET](http://yuilibrary.com/yui/docs/cssreset/)
+ 3. [YUI CSS RESET](http://yuilibrary.com/yui/docs/cssreset/)    
+ 4. [CSS全屏背景图](http://sixrevisions.com/css/responsive-background-image/?utm_source=CSS-Weekly&utm_campaign=Issue-117&utm_medium=email)   
+ 5. 
 
 ###JavaScript
 ####计算机科学
