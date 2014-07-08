@@ -7,6 +7,7 @@
    -  [gulp plugins](http://gratimax.github.io/search-gulp-plugins/)，gulp插件。
  6. [JSDoc3](https://github.com/jsdoc3/jsdoc)，生成JavaScript API文档工具。
  7. [Google全球IP地址库](https://github.com/justjavac/Google-IPs)，这个不说都懂。
+ 8. [各开源库CDN](http://open.bootcss.com/)   
 
 ##趣味工具
  1. [web流程图](https://github.com/sporritt/jsPlumb)   
