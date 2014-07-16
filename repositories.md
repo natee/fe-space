@@ -31,12 +31,13 @@
 ####AngularJS
  1. [AngularJS](https://github.com/angular/angular.js)官网学习代码。
  2. AngularJS项目[实战建议](https://github.com/mgechev/angularjs-style-guide)，包括项目的组织结构等。
- 3. [AngularStrap](https://github.com/mgcrea/angular-strap)，Bootstrap3的Angular版本。
- 4. [AngularGridster](https://github.com/ManifestWebDesign/angular-gridster)，网格版的自适应布局，可以拖动和更改块的大小。
- 5. [AngularModal](https://github.com/btford/angular-modal)，浮层内容支持代码和模板。
- 6. [Angular-dragdrop](https://github.com/codef0rmer/angular-dragdrop)，拖动插件，依赖jQueryUI。
- 7. [Angular-dragon-drop](https://github.com/btford/angular-dragon-drop)，btford所写，不依赖其它库，纯属学习所用。
- 8. [Angular-upload](https://github.com/leon/angular-upload)，angular上传，不依赖其它库。
+ 3. [angular-strap](https://github.com/mgcrea/angular-strap)，Bootstrap3的Angular版本。
+ 4. [angular-gridster](https://github.com/ManifestWebDesign/angular-gridster)，网格版的自适应布局，可以拖动和更改块的大小。
+ 5. [ngDialog](https://github.com/likeastore/ngDialog#api)，浮层
+ 6. [angular-modal](https://github.com/btford/angular-modal)，浮层内容支持代码和模板。  
+ 7. [angular-dragdrop](https://github.com/codef0rmer/angular-dragdrop)，拖动插件，依赖jQueryUI。
+ 8. [angular-dragon-drop](https://github.com/btford/angular-dragon-drop)，btford所写，不依赖其它库，纯属学习所用。
+ 9. [angular-upload](https://github.com/leon/angular-upload)，angular上传，不依赖其它库。
      
 ####jQuery
  1. [BootStrap](https://github.com/twbs/bootstrap)，前端框架，自适应布局，各种插件。    
