@@ -49,6 +49,7 @@
 
 ###移动端Web技术
  1. [Ionic](https://github.com/driftyco/ionic)，HTML5移动端App框架，基于AngularJS。
+ 2. [angular mobile ui](https://github.com/mcasimir/mobile-angular-ui)，Build HTML5 Mobile Apps with Bootstrap and Angular JS。   
 
 ##其它文档
  1. [前端面试题](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)    
