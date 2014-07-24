@@ -11,5 +11,3 @@ fe-space
  + [pure css](https://github.com/natee/fe-space/tree/master/k_pure)   
  学习YUI的pure css框架
 
---------
- + .gitignore文件是为了禁止本地把无关文件同时提交到git上，比如一些IDE存储的配置信息（.idea为webstrom创建），node_modules为nodejs项目的一些依赖包。
