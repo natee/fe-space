@@ -12,7 +12,8 @@
 ##趣味工具
  1. [web流程图](https://github.com/sporritt/jsPlumb)   
  2. 矢量图形库[kity](https://github.com/fex-team/kity)，百度FEX做的   
- 3. 在线脑图编辑[kityminder](https://github.com/fex-team/kityminder)，百度FEX做的    
+ 3. 在线脑图编辑[kityminder](https://github.com/fex-team/kityminder)，百度FEX做的。
+ 4. [rainyday.js](https://github.com/maroslaw/rainyday.js)，逼真的雨滴效果，做全屏页面非常赞。
 
 ##学习资料
 ###CSS(3)
