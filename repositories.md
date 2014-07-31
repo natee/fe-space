@@ -42,6 +42,7 @@
 ####jQuery
  1. [BootStrap](https://github.com/twbs/bootstrap)，前端框架，自适应布局，各种插件。    
  2. [jQuery-Tags-Input](https://github.com/xoxco/jQuery-Tags-Input)，标签式输入插件。
+ 3. [jquery视差滚动](https://github.com/alvarotrigo/fullPage.js)，滚动整页翻动的效果。
 
 
 ###HTML(5)
