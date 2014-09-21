@@ -31,14 +31,15 @@
 
 ####AngularJS
  1. [AngularJS](https://github.com/angular/angular.js)官网学习代码。
- 2. AngularJS项目[实战建议](https://github.com/mgechev/angularjs-style-guide)，包括项目的组织结构等。
- 3. [angular-strap](https://github.com/mgcrea/angular-strap)，Bootstrap3的Angular版本。
- 4. [angular-gridster](https://github.com/ManifestWebDesign/angular-gridster)，网格版的自适应布局，可以拖动和更改块的大小。
- 5. [ngDialog](https://github.com/likeastore/ngDialog#api)，浮层
- 6. [angular-modal](https://github.com/btford/angular-modal)，浮层内容支持代码和模板。  
- 7. [angular-dragdrop](https://github.com/codef0rmer/angular-dragdrop)，拖动插件，依赖jQueryUI。
- 8. [angular-dragon-drop](https://github.com/btford/angular-dragon-drop)，btford所写，不依赖其它库，纯属学习所用。
- 9. [angular-upload](https://github.com/leon/angular-upload)，angular上传，不依赖其它库。
+ 1. [Angular Cookies](https://github.com/angular/bower-angular-cookies)，官网所用cookie，用法和jq类似，但是功能太弱，只能设置和获取cookie，无法设置如过期时间等选项。可以选择其它cookie库。
+ 1. AngularJS项目[实战建议](https://github.com/mgechev/angularjs-style-guide)，包括项目的组织结构等。
+ 1. [angular-strap](https://github.com/mgcrea/angular-strap)，Bootstrap3的Angular版本。
+ 1. [angular-gridster](https://github.com/ManifestWebDesign/angular-gridster)，网格版的自适应布局，可以拖动和更改块的大小。
+ 1. [ngDialog](https://github.com/likeastore/ngDialog#api)，浮层
+ 1. [angular-modal](https://github.com/btford/angular-modal)，浮层内容支持代码和模板。  
+ 1. [angular-dragdrop](https://github.com/codef0rmer/angular-dragdrop)，拖动插件，依赖jQueryUI。
+ 1. [angular-dragon-drop](https://github.com/btford/angular-dragon-drop)，btford所写，不依赖其它库，纯属学习所用。
+ 1. [angular-upload](https://github.com/leon/angular-upload)，angular上传，不依赖其它库。
      
 ####jQuery
  1. [BootStrap](https://github.com/twbs/bootstrap)，前端框架，自适应布局，各种插件。    
