@@ -10,6 +10,8 @@ fe-space
  这里是收集国内外有关前端技术的文章，也可以说是比较新颖的内容，值得学习，时时准备了解新技术在前端中的应用。
  + [gulp实例](https://github.com/natee/fe-space/tree/master/k_gulp)    
  学习gulp过程中使用的一些插件用法。
+ + [grunt实例](https://github.com/natee/fe-space/tree/master/k_grunt)    
+ 学习grunt过程中使用的一些插件用法。
  + [pure css](https://github.com/natee/fe-space/tree/master/k_pure)   
  学习YUI的pure css框架。
 
@@ -19,4 +21,5 @@ fe-space
 Name | Value 
 ------------ | ------------- 
 Email | <kerncink@gmail.com>  
-Github | [@natee](https://github.com/natee)   
+Github | [@natee](https://github.com/natee) 
+WeChart | zkShare  
