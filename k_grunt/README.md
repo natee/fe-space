@@ -53,7 +53,7 @@ module.exports = function(grunt) {
     // 默认启动mc，合并
     grunt.registerTask('default', '默认的任务', function() {
         grunt.task.run(localserver') 
-      //  grunt.task.run('concatdev','localserver')  // 如果有多任务，那么启动代理转发的任务必须在最后，因为启动connect后会一直出于waiting状态
+      //  grunt.task.run('concatdev','localserver')  // 如果有多任务，那么启动代理转发的任务必须在最后，因为启动connect后会一直处于waiting状态
     });
 
 };
