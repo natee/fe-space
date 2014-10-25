@@ -3,11 +3,11 @@
 ##目录
 
   1. [开始grunt](#开始grunt)
-  	1. [安装CLI](#安装CLI)
-  	1. [准备一个新的Grunt项目](#准备一个新的Grunt项目)
-  	1. [package.json](#package.json)
-  	1. [安装Grunt和grunt插件](#安装Grunt和grunt插件)
-  	1. [Gruntfile](#Gruntfile)
+  	1. [安装CLI](#安装cli)
+  	1. [准备一个新的Grunt项目](#准备一个新的grunt项目)
+  	1. [package.json](#packagejson)
+  	1. [安装Grunt和grunt插件](#安装grunt和grunt插件)
+  	1. [Gruntfile](#gruntfile)
   1. [grunt插件](#grunt插件)
     1. [grunt-contrib-concat](#grunt-contrib-concat)
     1. [grunt-contrib-watch](#grunt-contrib-watch)
