@@ -1,8 +1,8 @@
-# grunt学习，常用的grunt任务 ##
+#grunt学习，常用的grunt任务
 
-## 目录
+##目录
 
-  1. [开始grunt](#grunt-connect-proxy)
+  1. [开始grunt](#开始grunt)
   	1. [安装CLI](#安装CLI)
   	1. [准备一个新的Grunt项目](#准备一个新的Grunt项目)
   	1. [package.json](#package.json)
@@ -15,7 +15,7 @@
     1. [grunt-connect-proxy](#grunt-connect-proxy)
 
 
-## 开始grunt
+##开始grunt
 Grunt和Grunt的插件都是通过Node.js的包管理器npm来安装和管理的。
 
 Grunt 0.4.x要求Node.js的版本>=0.8.0(也就是0.8.0及以上版本的Node.js才能很好的运行Grunt)。
@@ -79,6 +79,8 @@ npm install -g grunt-cli
  - 项目和任务配置
  - 加载的Grunt插件和任务
  - 自定义任务
+ 
+**[返回顶部](#目录)**
 
 ##grunt插件
 
@@ -102,9 +104,9 @@ grunt.initConfig({
 });
 grunt.loadNpmTasks('grunt-contrib-concat');
 grunt.registerTask('concat',['concat']);
-
 ```
 
+**[返回顶部](#目录)**
 
 ### grunt-contrib-watch
 
@@ -127,6 +129,8 @@ grunt.initConfig({
 grunt.loadNpmTasks('grunt-contrib-watch');
 ```
 
+**[返回顶部](#目录)**
+
 ### grunt-contrib-uglify
 
 作用：压缩文件。
@@ -144,6 +148,8 @@ grunt.initConfig({
   }
 });
 ```
+
+**[返回顶部](#目录)**
 
 ### grunt-connect-proxy
 
@@ -198,4 +204,7 @@ grunt.registerTask('default', '默认的任务', function() {
 //  grunt.task.run('concatdev','localserver1')  // 如果有多任务，那么启动代理转发的任务必须在最后，因为启动connect后会一直处于waiting状态
 });
 ```
+
+**[返回顶部](#目录)**
+
 
