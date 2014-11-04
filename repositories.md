@@ -56,5 +56,6 @@
  1. [angular mobile ui](https://github.com/mcasimir/mobile-angular-ui)，JS创建基于AngularJS和Bootstrap框架的HTML5移动端应用，不过这个框架不太成熟（兼容性不太好）。   
 
 ##其它文档
+ 1. [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN#javascript)
  1. [前端面试题](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)    
  1. [前端书签集锦](https://github.com/dypsilon/frontend-dev-bookmarks)    
