@@ -14,3 +14,4 @@
 
 ### Javascript篇 ###
 1. [JavaScript Quiz](http://zxhfighter.github.io/blog/javascript/2013/03/15/javascript-quiz-remark.html)，JavaScript难题。
+2. [JavaScript Promise](http://www.html5rocks.com/zh/tutorials/es6/promises/)。
