@@ -27,6 +27,7 @@
 ####基础知识
  1. [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)，JavaScript中的基础和重点，建议一口气看完。
  1. [数据结构](https://github.com/davidshariff/computer-science )，JavaScript版二叉树、链表等。
+ 
 ####工具
  1. [ECharts](https://github.com/ecomfe/echarts)，基于Canvas的JavaScript图表库，百度开源项目
  1. [html2canvas](https://github.com/niklasvh/html2canvas)，把网页中的一部分转化成canvas，可以实现网页截图的功能。    
