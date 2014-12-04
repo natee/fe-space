@@ -1,13 +1,12 @@
 ##实用类
  1. [Markdown-Syntax](https://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md )，想要编辑这份文档，这个当然是首要需要学习的。    
  1. [Sublime text主题](https://github.com/kkga/spacegray)    
- 1. [html2canvas](https://github.com/niklasvh/html2canvas)，把网页中的一部分转化成canvas，可以实现网页截图的功能。    
- 1. [ECharts](https://github.com/ecomfe/echarts)，基于Canvas的JavaScript图表库，百度开源项目
  1. [gulp.js](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started)，自动化管理工具，据说比grunt好。
    -  [gulp plugins](http://gratimax.github.io/search-gulp-plugins/)，gulp插件。
  1. [JSDoc3](https://github.com/jsdoc3/jsdoc)，生成JavaScript API文档工具。
  1. [Google全球IP地址库](https://github.com/justjavac/Google-IPs)，这个不说都懂。
  1. [各开源库CDN](http://open.bootcss.com/)   
+ 1. [nproxy](https://github.com/goddyZhao/nproxy)，web文件替换cli代理工具，通俗说，就是把web访问的请求文件映射到本地文件。例如，当你本地开发完成后，离上线还有一段时间，可是线下又看不到线上出的问题，怎么才知道自己的修改是否生效了？临时上线显然是不科学的，这时你就可以把线上请求的文件映射为本地路径文件，查问题妥妥的。  
 
 ##趣味工具
  1. [web流程图](https://github.com/sporritt/jsPlumb)   
@@ -26,8 +25,12 @@
 
 ###JavaScript
 ####基础知识
-1. [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)，JavaScript中的基础和重点，建议一口气看完。
-1. [数据结构](https://github.com/davidshariff/computer-science )，JavaScript版二叉树、链表等。
+ 1. [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)，JavaScript中的基础和重点，建议一口气看完。
+ 1. [数据结构](https://github.com/davidshariff/computer-science )，JavaScript版二叉树、链表等。
+####工具
+ 1. [ECharts](https://github.com/ecomfe/echarts)，基于Canvas的JavaScript图表库，百度开源项目
+ 1. [html2canvas](https://github.com/niklasvh/html2canvas)，把网页中的一部分转化成canvas，可以实现网页截图的功能。    
+ 
 
 
 ####AngularJS
