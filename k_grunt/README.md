@@ -174,8 +174,18 @@ grunt.initConfig({
         },
         proxies: [
             {
+
+//                通过域名，grunt-connect-proxy必须是0.1.10版本
+//                host: 'www.zhangsan.com',  // 网址
+//                port:80, // 端口
+//                https:true, // 是否启用https
+//                headers:{
+//                    "host":"www.zhangsan.com"
+//                },
+
+              // 通过IP
                 context: '/api',
-                host: 'xxx.xxx.xxx.xxx', // API服务端地址
+                host: 'xxx.xxx.xxx.xxx', // API服务端IP地址
                 port: 9987,
                 changeOrigin: true
             }
