@@ -6,6 +6,7 @@
 
 ### Javascript篇 ###
 1. [大型 JavaScript 应用架构中的模式](http://nuysoft.com/2013/08/13/large-scale-javascript/)   
+2. [AngularJS单元测试入门教程](http://www.ng-newsletter.com/advent2013/#!/day/19)，当你知道有单元测试自己却不知道如何写的时候，这篇文章可以带你入门。    
 
 
 ##国内博客
