@@ -30,7 +30,8 @@
  
 ####工具
  1. [ECharts](https://github.com/ecomfe/echarts)，基于Canvas的JavaScript图表库，百度开源项目
- 1. [html2canvas](https://github.com/niklasvh/html2canvas)，把网页中的一部分转化成canvas，可以实现网页截图的功能。    
+ 1. [html2canvas](https://github.com/niklasvh/html2canvas)，把网页中的一部分转化成canvas，可以实现网页截图的功能。
+ 2. [canvasResize](https://github.com/gokercebeci/canvasResize)，IOS上input file拍照显示在canvas上，你会发现旋转了90度，这个就是来解决这个问题的。
  
 
 
