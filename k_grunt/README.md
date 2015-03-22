@@ -178,7 +178,7 @@ grunt.initConfig({
 //                通过域名，grunt-connect-proxy必须是0.1.10版本
 //                host: 'www.zhangsan.com',  // 网址
 //                port:80, // 端口
-//                https:true, // 是否启用https
+//                https:true, // 是否启用https，注意和host实际使用策略对应
 //                headers:{
 //                    "host":"www.zhangsan.com"
 //                },
@@ -214,6 +214,7 @@ grunt.registerTask('default', '默认的任务', function() {
 //  grunt.task.run('concatdev','localserver1')  // 如果有多任务，那么启动代理转发的任务必须在最后，因为启动connect后会一直处于waiting状态
 });
 ```
+[这里](http://www.ngnice.com/posts/76c4bd0f7a4cdc)也有一篇讲解的文章。
 
 **[返回顶部](#目录)**
 
