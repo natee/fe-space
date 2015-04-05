@@ -22,6 +22,7 @@
  3. [YUI CSS RESET](http://yuilibrary.com/yui/docs/cssreset/)    
  4. [CSS全屏背景图](http://sixrevisions.com/css/responsive-background-image/?utm_source=CSS-Weekly&utm_campaign=Issue-117&utm_medium=email)   
  5. [CSS Animate](https://github.com/daneden/animate.css)，CSS动画。
+ 6. [CSS Loading Gif](https://github.com/ConnorAtherton/loaders.css)，CSS加载动画效果。
  
 
 ###JavaScript
