@@ -196,7 +196,7 @@ grunt.initConfig({
                 middleware: function (connect) {
                    return [
                         require('grunt-connect-proxy/lib/utils').proxyRequest,
-                        connect.static('home/login') // nginx配置的默认跳转路径
+                        connect.static('app') // 前端index.html所在位置
                     ];
                 }
             }
@@ -213,6 +213,19 @@ grunt.registerTask('default', '默认的任务', function() {
     grunt.task.run(localserver1') 
 //  grunt.task.run('concatdev','localserver1')  // 如果有多任务，那么启动代理转发的任务必须在最后，因为启动connect后会一直处于waiting状态
 });
+```
+这里用到了middleware属性，其中connect.static需要填写index.html所在路径，但是index.html不能和Gruntfile.js同级。
+此种情况应该是`connect.static('app')`。
+```
+ /app
+ /app/index.html
+ /Gruntfile.js
+```
+下面的情况用`connect.static('/')`会失败。
+```
+ /assets
+ /index.html
+ /Gruntfile.js
 ```
 [这里](http://www.ngnice.com/posts/76c4bd0f7a4cdc)也有一篇讲解的文章。
 
