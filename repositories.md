@@ -29,6 +29,7 @@
 ####基础知识
  1. [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)，JavaScript中的基础和重点，建议一口气看完。
  2. [数据结构](https://github.com/davidshariff/computer-science )，JavaScript版二叉树、链表等。
+ 3. [图解JavaScript](https://github.com/coodict/javascript-in-one-pic)，把JavaScript知识点用一张脑图展现。
  
 ####工具
  1. [ECharts](https://github.com/ecomfe/echarts)，基于Canvas的JavaScript图表库，百度开源项目
@@ -56,6 +57,9 @@
 
 
 ###HTML(5)
+
+###SVG
+
 
 
 ###移动端Web技术
