@@ -20,6 +20,7 @@
 1. [JavaScript Quiz](http://zxhfighter.github.io/blog/javascript/2013/03/15/javascript-quiz-remark.html)，JavaScript难题。
 2. [JavaScript Promise](http://www.html5rocks.com/zh/tutorials/es6/promises/)。
 3. [JavaScript和事件](http://yujiangshui.com/javascript-event/)，JavaScript 和事件的基础知识。
+4. [JavaScript标准参考教程](http://javascript.ruanyifeng.com/)，如题所示，基础，作者阮一峰。
 
 ### 综合 ###
 1. [Feenan's blog](http://www.ifeenan.com/)，包含Angular源码、ES6等。
